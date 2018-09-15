@@ -1,9 +1,12 @@
 # parquet-metadata
 
+[![Build Status](https://travis-ci.org/cldellow/parquet-metadata.svg?branch=master)](https://travis-ci.org/cldellow/parquet-metadata)
+
 Dump metadata about a Parquet file.
 
 ```
-$ parquet-metadata parquet.file
+sudo pip install parquet-metadata
+parquet-metadata parquet.file
 ```
 
 Sample output:
