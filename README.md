@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cldellow/parquet-metadata.svg?branch=master)](https://travis-ci.org/cldellow/parquet-metadata)
 
-Dump metadata about a Parquet file.
+Dump metadata about a Parquet file. You may also be interested in [csv2parquet](https://github.com/cldellow/csv2parquet).
 
 ```
 sudo pip install parquet-metadata
