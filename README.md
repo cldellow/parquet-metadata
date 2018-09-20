@@ -5,7 +5,7 @@
 Dump metadata about a Parquet file. You may also be interested in [csv2parquet](https://github.com/cldellow/csv2parquet).
 
 ```
-sudo pip install parquet-metadata
+sudo pip install pyarrow parquet-metadata
 parquet-metadata parquet.file
 ```
 
