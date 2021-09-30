@@ -15,6 +15,7 @@ def dump_file(metadata):
     print('file\tcolumns\t{}'.format(metadata.num_columns))
     print('file\trow_groups\t{}'.format(metadata.num_row_groups))
     print('file\trows\t{}'.format(metadata.num_rows))
+    print('file\tformat_version\t{}'.format(metadata.format_version))
 
 def dump_row_group(index, row_group):
     print('row_group\t{}\t\tsize\t{}'.format(index, row_group.total_byte_size))
